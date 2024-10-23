@@ -1,0 +1,25 @@
+.sectores-contenedor{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 1.8%;
+}
+
+.sector img{
+    width: 100%;
+}
+
+.sector section p{
+    text-align: center;
+    max-width: none;
+}
+
+.sector h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+

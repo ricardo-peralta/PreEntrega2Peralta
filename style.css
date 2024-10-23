@@ -173,6 +173,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: auto;
+    margin-top: 20px;
     /* border: 10px solid red; */
     /* position: absolute;
     bottom: 0; */
