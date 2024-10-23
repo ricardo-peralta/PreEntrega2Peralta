@@ -1,0 +1,194 @@
+/*
+!important = aplica a las propiedades y pisa todo orden jerarquico
+
+ID= unico e irrepetible /DNI / IMEI / PATENTE DE UN AUTO
+class= se pueden repetir y utilizar mas de una vez
+
+etiquetas/selectores = etiquetas semanticas del html.
+
+
+*/
+
+
+/*primero se llama al selector/id/clase{
+propiedad: valor;
+}*/
+
+/*LLAMADO AL DOC HTML*/
+/*ESTILOS RESET CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    max-width: 1400px;
+
+}
+
+body {
+    width: 100%;
+    position: relative;
+    
+   }
+/* ESTILOS PARA HEADER */
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(180, 188, 199);
+    /* display: flex;  
+    align-items: center; */
+    max-width: 1400px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#navBar {
+    width: 100%;
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    text-align: center;
+    margin-top: 30px;
+}
+
+#menu li{
+    width: 15%;
+    display: inline-block;
+    
+}
+
+/* ESTILOS PARA MAIN */
+
+/*INDEX*/
+
+#main{
+   
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#main .titulo {
+    
+    text-align: center;
+    
+}
+
+#main .texto{
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+    
+
+}
+
+#main #picture{
+    display: block;
+    text-align: center;
+}
+
+#main #video{
+    margin: 0 auto;
+    display: block;
+    
+}
+
+
+
+/*EQUIPO */
+
+#main-equipo h1{
+    text-align: center;
+}
+
+#main-equipo .img-equipo{
+    margin: auto;
+    display: block;
+    width: 400px;
+}
+
+#main-equipo .texto-equipo{
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+
+}
+
+/*PRODUCTOS*/
+
+
+
+#main-productos section,p {
+    
+    margin: 30px;
+    display: block;
+    text-align: center;
+
+}
+
+#main-productos h2,p{
+    max-width: 50%;
+    text-align: center;
+
+}
+
+#main-productos h1{
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESTILOS PARA EL FOOTER */
+
+#footer {
+    background-color: rgb(180, 188, 199);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+    /* border: 10px solid red; */
+    /* position: absolute;
+    bottom: 0; */
+    
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-links, .footer-links-autor h3{
+    text-align: center;
+}
+
+.footer-redes img{
+    width: 90px;
+    display: inline-block;
+    
+}
+
