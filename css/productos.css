@@ -1,0 +1,26 @@
+.productos-contenedor{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1%;
+
+}
+
+.main-productos{
+    text-align: center;
+
+}
+
+.main-productos picture img{
+    width: 100%;
+
+}
+
+.main-productos section p{
+    text-align: center;
+    max-width: none;
+}
+
+.main-productos h1{
+    margin-bottom: 20px; 
+    margin-top: 20px;   
+}

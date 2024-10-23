@@ -22,14 +22,15 @@ propiedad: valor;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    max-width: 1400px;
+    
 
 }
 
 body {
+    max-width: 1400px;
     width: 100%;
     position: relative;
-    
+    margin: 0 auto;
    }
 /* ESTILOS PARA HEADER */
 #header {
