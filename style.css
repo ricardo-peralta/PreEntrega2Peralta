@@ -96,76 +96,6 @@ body {
     
 }
 
-
-
-/*EQUIPO */
-
-#main-equipo h1{
-    text-align: center;
-}
-
-#main-equipo .img-equipo{
-    margin: auto;
-    display: block;
-    width: 400px;
-}
-
-#main-equipo .texto-equipo{
-    text-align: center;
-    max-width: 500px;
-    margin: 20px auto;
-
-}
-
-/*PRODUCTOS*/
-
-
-
-#main-productos section,p {
-    
-    margin: 30px;
-    display: block;
-    text-align: center;
-
-}
-
-#main-productos h2,p{
-    max-width: 50%;
-    text-align: center;
-
-}
-
-#main-productos h1{
-    padding-bottom: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ESTILOS PARA EL FOOTER */
 
 #footer {
@@ -174,10 +104,6 @@ body {
     justify-content: space-between;
     margin-bottom: auto;
     margin-top: 20px;
-    /* border: 10px solid red; */
-    /* position: absolute;
-    bottom: 0; */
-    
 }
 
 .footer-logo img {

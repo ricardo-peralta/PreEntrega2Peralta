@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.formulario{
+    width: 500px;
+    /* background-color: rgb(144, 216, 192); */
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    }
+
+.controls{
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.botons{
+    padding: 10px;
+}
+
+.contenedorContactos{
+    display: flex;
+    justify-content: center;
+}

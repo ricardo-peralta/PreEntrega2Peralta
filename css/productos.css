@@ -16,6 +16,7 @@
 }
 
 .main-productos section p{
+    margin: 30px;
     text-align: center;
     max-width: none;
 }
