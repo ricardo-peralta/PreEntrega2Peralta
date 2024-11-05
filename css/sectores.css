@@ -1,12 +1,19 @@
+.sector{
+    padding-top: 100px;
+}
+
 .sectores-contenedor{
     display: grid;
     grid-template-columns: 32% 32% 32%;
     gap: 1.8%;
+    
+    
 }
 
 .sector img{
     width: 100%;
     height: 400px;
+    
 }
 
 .sector section p{
