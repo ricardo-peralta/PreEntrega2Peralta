@@ -1,3 +1,8 @@
+$ancho_maximo: 1400px;
+$color_delmenu: rgb(98, 122, 155);
+$color_delfooter:rgb(180, 188, 199);
+$block_centrado: 0 auto;
+
 * {
     margin: 0;
     padding: 0;
@@ -10,37 +15,35 @@
 }
 
 body {
-    max-width: 1400px;
+    max-width: $ancho_maximo;
     width: 100%;
     position: relative;
-    margin: 0 auto;
+    margin: $block_centrado;
    }
+
+
 /* ESTILOS PARA HEADER */
 
 #header .navBar {
     width: 100%;
     height: 90px;
-    background-color: rgb(98, 122, 155);
-    max-width: 1400px;
+    background-color: $color_delmenu;
+    max-width: $ancho_maximo;
     position: fixed;
     display: flex;
     justify-content: space-between;
     block-size: auto;
     align-items: center;
-    /* gap: 140px; */
-    
-    }
+}
 
 #header #navBar .menu{
     display: flex;
     justify-content: end;
-    /* background-color: brown; */
     width: 80%;
 }
 
 #header #navBar .menu li{
     width: 15%;
-
 }
 
 
@@ -60,9 +63,8 @@ body {
 #main{
    
     width: 100%;
-    margin: 0 auto;
+    margin: $block_centrado;
     padding-top: 100px;
-
 }
 
 img{
@@ -90,15 +92,16 @@ img{
 }
 
 #main #video{
-    margin: 0 auto;
+    margin: $block_centrado;
     display: block;
-    
 }
 
 /* ESTILOS PARA EL FOOTER */
 
+
+
 #footer {
-    background-color: rgb(180, 188, 199);
+    background-color: $color_delfooter;
     display: flex;
     justify-content: space-between;
     margin-bottom: auto;
@@ -116,5 +119,4 @@ img{
 .footer-redes img{
     width: 90px;
     display: inline-block;
-    
 }

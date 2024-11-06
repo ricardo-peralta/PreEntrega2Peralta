@@ -25,13 +25,11 @@ body {
   justify-content: space-between;
   block-size: auto;
   align-items: center;
-  /* gap: 140px; */
 }
 
 #header #navBar .menu {
   display: flex;
   justify-content: end;
-  /* background-color: brown; */
   width: 80%;
 }
 
